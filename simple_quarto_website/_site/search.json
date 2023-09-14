@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My undergraduate major is Finance, and my am taking the DSAN Program at the Geoergetown University.\n\n\n\nMy undergraduate major is Finance, and my am taking the DSAN Program at the Geoergetown University.\n\n\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Data for plotting\nt = np.arange(0.0, 2.0, 0.01)\ns = 1 + np.sin(2 * np.pi * t)\n\nfig, ax = plt.subplots()\nax.plot(t, s)\n\nax.set(xlabel='time (s)', ylabel='voltage (mV)',\n       title='About as simple as it gets, folks')\nax.grid()\n\n#fig.savefig(\"test.png\")\nplt.show()"
+  },
+  {
+    "objectID": "about.html#my-major",
+    "href": "about.html#my-major",
+    "title": "About",
+    "section": "",
+    "text": "My undergraduate major is Finance, and my am taking the DSAN Program at the Geoergetown University."
+  },
+  {
+    "objectID": "about.html#my-past-expierence",
+    "href": "about.html#my-past-expierence",
+    "title": "About",
+    "section": "",
+    "text": "My undergraduate major is Finance, and my am taking the DSAN Program at the Geoergetown University.\n\n\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Data for plotting\nt = np.arange(0.0, 2.0, 0.01)\ns = 1 + np.sin(2 * np.pi * t)\n\nfig, ax = plt.subplots()\nax.plot(t, s)\n\nax.set(xlabel='time (s)', ylabel='voltage (mV)',\n       title='About as simple as it gets, folks')\nax.grid()\n\n#fig.savefig(\"test.png\")\nplt.show()"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#this-is-head-2-and-below-are-tables-and-mermaid-diagram",
+    "href": "index.html#this-is-head-2-and-below-are-tables-and-mermaid-diagram",
+    "title": "simple_quarto_website",
+    "section": "This is Head 2 and below are tables and Mermaid Diagram",
+    "text": "This is Head 2 and below are tables and Mermaid Diagram\n\nthis is a two column list ::: {layout-ncol=2} ### List One\nItem A\nItem B\nItem C\n\n\nList Two\n\nItem X\nItem Y\nItem Z ::: Result\nThis is a table\n\n\n\n\nfruit\nprice\n\n\n\n\napple\n2.05\n\n\npear\n1.37\n\n\norange\n3.09\n\n\n\n\nThis is a markdown table\n\n\nfirst column\nsecond column\nthird column\nfourth column\n\n\n\n\n1\n2\n3\n4\n\n\n5\n6\n7\n8\n\n\n9\n10\n11\n12\n\n\n\n\nhere’s a mermaid diagram\n\n\n\n\n\nflowchart LR\n  A[1.0] --&gt; B(2.0)\n  B --&gt; C{3.0}\n  C --&gt; D[4.1]\n  C --&gt; E[4.2]\n\n\nA Mermaid diagram\n\n\n\n\n\nThis is Head 3 and below are equations, footnot, citations and quote\n\nhere’s the example of Latex equations\n\n\nthis is a inline-math LaTex equation \\(1+1=2\\)\nthis is a non inline-math LaTex equation \\[1+2=3\\]\n\nHere is a footnote reference,1 and another.2\n\n\nThis is a quote\n\nthis is a citation (Kang et al. 2020)"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is the footnote.↩︎\nHere’s one with multiple blocks.\nSubsequent paragraphs are indented to show that they belong to the previous footnote.\nThe whole paragraph can be indented, or just the first line. In this way, multi-paragraph footnotes work like multi-paragraph list items.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#getting-up",
+    "href": "slides/slides.html#getting-up",
+    "title": "Quarto Presentations",
+    "section": "Getting up",
+    "text": "Getting up\n\nTurn off alarm\nGet out of bed"
+  },
+  {
+    "objectID": "slides/slides.html#breakfast",
+    "href": "slides/slides.html#breakfast",
+    "title": "Quarto Presentations",
+    "section": "Breakfast",
+    "text": "Breakfast\n\nEat eggs\nDrink coffee"
+  },
+  {
+    "objectID": "slides/slides.html#images",
+    "href": "slides/slides.html#images",
+    "title": "Quarto Presentations",
+    "section": "Images",
+    "text": "Images"
+  },
+  {
+    "objectID": "slides/slides.html#code",
+    "href": "slides/slides.html#code",
+    "title": "Quarto Presentations",
+    "section": "code",
+    "text": "code\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\nhttps://quarto.org\n\n\n\nKang, Yue, Zhao Cai, Chee-Wee Tan, Qian Huang, and Hefu Liu. 2020. “Natural Language Processing (NLP) in Management Research: A Literature Review.” Journal of Management Analytics 7 (2): 139–72."
+  },
+  {
+    "objectID": "slides/slides.html",
+    "href": "slides/slides.html",
+    "title": "Quarto Presentations",
+    "section": "",
+    "text": "Turn off alarm\nGet out of bed\n\n\n\n\n\nEat eggs\nDrink coffee"
+  },
+  {
+    "objectID": "slides/slides.html#code-1",
+    "href": "slides/slides.html#code-1",
+    "title": "Quarto Presentations",
+    "section": "code",
+    "text": "code\n#| echo: true\n#| output-location: slide\nlibrary(ggplot2)\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n\n\nhttps://quarto.org"
+  },
+  {
+    "objectID": "slides/slides.html#this-is-first-slides",
+    "href": "slides/slides.html#this-is-first-slides",
+    "title": "Quarto Presentations",
+    "section": "This is first slides",
+    "text": "This is first slides\n\nKang et al. (2020)"
+  },
+  {
+    "objectID": "slides/slides.html#this-is-image-page",
+    "href": "slides/slides.html#this-is-image-page",
+    "title": "Quarto Presentations",
+    "section": "This is Image page",
+    "text": "This is Image page"
+  }
+]

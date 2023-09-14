@@ -1,0 +1,90 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+
+# This is Head 1 and below are two embedded pics and videos
+- here's the example of embedding two images
+<center>![Mermaid](images/Merimaid.png){width=300}</center>
+<center>![Prince](images/Prince.png){width=300}</center>
+
+- here's a embedding video of Little Mermaid
+{{< video https://www.youtube.com/watch?v=SXKlJuO07eM width=“800” height=“500” >}} 
+  
+## This is Head 2 and below are tables and Mermaid Diagram
+
+- this is a two column list 
+::: {layout-ncol=2}
+### List One
+
+- Item A
+- Item B
+- Item C
+
+### List Two
+
+- Item X
+- Item Y
+- Item Z
+:::
+Result
+
+- This is a table
+  
+fruit| price
+-----|-----:
+apple|2.05
+pear|1.37
+orange|3.09
+
+
+| first column | second column | third column | fourth column |
+|---------|:-----|------:|:------:|
+| 1     | 2   |    3 |   4  |
+| 5     | 6  |   7 |  8   |
+| 9       | 10    |    11 |   12   |
+
+: This is a markdown table
+
+- here's a mermaid diagram
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[1.0] --> B(2.0)
+  B --> C{3.0}
+  C --> D[4.1]
+  C --> E[4.2]
+```
+
+
+### This is Head 3 and below are equations, footnot, citations and quote
+- here's the example of Latex equations
+1. this is a inline-math LaTex equation $1+1=2$
+2. this is a non inline-math LaTex equation $$1+2=3$$
+
+
+
+
+Here is a footnote reference,[^1] and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they belong to the previous footnote.
+
+    The whole paragraph can be indented, or just the first
+    line.  In this way, multi-paragraph footnotes work like
+    multi-paragraph list items.
+
+
+
+- > This is a quote
+
+- this is a citation [@kang2020natural]
